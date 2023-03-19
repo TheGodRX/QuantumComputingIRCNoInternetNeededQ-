@@ -23,6 +23,17 @@ The `DecryptMessage` function decrypts an encrypted message using a shared key b
 
 The `CreateIRC` function creates an IRC-like chat system by initializing a chat log and a quantum register for message transmission. 
 
+
+The specific output of the chat log will depend on the messages sent during the execution of the code. However, here is an example of what the output could look like:
+
+```
+Chat log:
+Alice -> Bob: Hi, Bob! How are you?
+Bob -> Alice: I'm fine, thanks. What's up?
+```
+
+This output indicates that Alice and Bob successfully communicated with each other using the implemented IRC protocol. The first message was sent from Alice to Bob, and the second message was sent from Bob to Alice.
+
 The `SendMessage` operation sends a message from one user to another by encoding the sender, recipient, and message as a quantum state, applying error correction and entanglement, transmitting the state, disentangling and error correcting the received state, and decoding the message. 
 
 The `GetChatLog` operation returns the chat log.
