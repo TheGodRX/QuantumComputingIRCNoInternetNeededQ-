@@ -49,3 +49,19 @@ To run this Quantum program, you'll need to use a Quantum development environmen
 9. The program will start executing, and you should see the chat log printed in the terminal window.
 
 Note that you'll need to have the Quantum Development Kit properly installed and configured on your machine for this to work. You may also need to install additional dependencies, such as the .NET Core SDK, depending on your setup.
+
+** TO RUN UPDATEDQUANTUMCHAT.QS 
+
+To run the `RunQuantumChat()` operation, you will need to have the Microsoft Quantum Development Kit installed on your machine. 
+
+Once you have the Quantum Development Kit installed, you can open the Quantum Development Kit command prompt, navigate to the folder where your code is located, and then run the following command to compile and execute the code:
+
+```
+dotnet run
+```
+
+This command will compile your program, execute the `RunQuantumChat()` operation using Microsoft's QuantumSimulator, and display the results.
+
+Alternatively, you can use Visual Studio or Visual Studio Code to create a new Quantum project, copy the code into a new file, and then run the project using one of the IDE's built-in debugging tools.
+
+Note that running quantum programs requires significant computational resources, and you may need to use cloud-based quantum computing resources or a high-performance quantum simulator to run the code effectively.
