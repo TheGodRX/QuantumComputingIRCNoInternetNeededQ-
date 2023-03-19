@@ -62,12 +62,15 @@ To run this Quantum program, you'll need to use a Quantum development environmen
 Note that you'll need to have the Quantum Development Kit properly installed and configured on your machine for this to work. You may also need to install additional dependencies, such as the .NET Core SDK, depending on your setup.
 
 ** TO RUN UPDATEDQUANTUMCHAT.QS 
+Clone this repository and cd into the directory where you clonse the repository to..
 
 To run the `RunQuantumChat()` operation, you will need to have the Microsoft Quantum Development Kit installed on your machine. 
 
 Once you have the Quantum Development Kit installed, you can open the Quantum Development Kit command prompt, navigate to the folder where your code is located, and then run the following command to compile and execute the code:
 
 ```
+dotnet run runQuantumChat.qs
+or
 dotnet run
 ```
 
